@@ -1,6 +1,6 @@
 /*
 LAB 1
-Title: Iterative algorithms Implementation
+TITLE: Iterative algorithms Implementation
 Objective:
 To implement GCD using Itertion
 To Implement Fibonacci series usign Iteration
@@ -9,9 +9,9 @@ To implement Linear Search using Iteration
 
 THEORY:
 Name:
-    - Algorithm
-    - Trace
-    - Time & Space Complexity
+    -> Algorithm
+    -> Trace
+    -> Time & Space Complexity
 */
 
 #include <stdio.h>
