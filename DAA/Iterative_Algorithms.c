@@ -1,18 +1,4 @@
-/*
-LAB 1
-TITLE: Iterative algorithms Implementation
-Objective:
-To implement GCD using Itertion
-To Implement Fibonacci series usign Iteration
-To implement Factorial series using Iteration
-To implement Linear Search using Iteration
-
-THEORY:
-Name:
-    -> Algorithm
-    -> Trace
-    -> Time & Space Complexity
-*/
+//DAA Iterative Algorithms: GCD, Fibonacci Series, Factorial, Linear Search
 
 #include <stdio.h>
 #define size 5
@@ -47,7 +33,7 @@ void fibonacci(int n) {
 int factorial(int n) {
     int fact = 1;
     for (int i = 1; i <= n; i++) {
-        fact *= i;
+        fact = fact * i;
     }
     return fact;
 }
