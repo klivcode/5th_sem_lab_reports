@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<bookstore>
+    <book>
+        <title>Programming in HTML</title>
+        <author>John Smith</author>
+        <price>29.99</price>
+        <isbn>978-3-16-148410-0</isbn>
+    </book>
+    <book>
+        <title>Learning XML</title>
+        <author>Erik Ray</author>
+        <price>39.95</price>
+        <isbn>978-0-596-00420-0</isbn>
+    </book>
+</bookstore>

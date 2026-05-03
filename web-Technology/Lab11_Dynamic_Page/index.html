@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 11 - Dynamic Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+        table { margin: 20px auto; border-collapse: collapse; }
+        td { border: 2px solid #333; width: 80px; height: 80px; font-size: 24px; font-weight: bold; background: #eee;}
+        button { padding: 10px 20px; font-size: 18px; cursor: pointer; background: #3498db; color: white; border: none; border-radius: 5px;}
+    </style>
+</head>
+<body>
+    <h2>Dynamic Number Generator</h2>
+    <button onclick="drawNumbers()">Draw Numbers</button>
+    <table id="numberTable">
+        <tr>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

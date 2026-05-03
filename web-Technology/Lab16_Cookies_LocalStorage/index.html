@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 16 - Cookies/Local Storage</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 30px; transition: 0.3s; }
+        .controls { background: rgba(0,0,0,0.1); padding: 20px; border-radius: 8px; display: inline-block;}
+        /* Themes */
+        .light-theme { background-color: #ffffff; color: #000000; }
+        .dark-theme { background-color: #2c3e50; color: #ecf0f1; }
+        button { padding: 8px 15px; margin-top: 10px; cursor: pointer; }
+    </style>
+</head>
+<body class="light-theme">
+    <h2>Theme Preference Saver</h2>
+    <p>This page uses LocalStorage to remember your theme choice.</p>
+    
+    <div class="controls">
+        <label>Select Theme:</label><br>
+        <button onclick="setTheme('light-theme')">Light Theme</button>
+        <button onclick="setTheme('dark-theme')">Dark Theme</button>
+        <br><br>
+        <button onclick="resetTheme()" style="background:#e74c3c; color:white; border:none;">Reset Preference</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

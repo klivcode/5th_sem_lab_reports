@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 9 - JS Popups</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; text-align: center; }
+        .section { margin-bottom: 30px; padding: 20px; background: #f9f9f9; border: 1px solid #ddd; display: inline-block; width: 300px; }
+        button { padding: 10px; cursor: pointer; }
+        input[type="text"] { padding: 8px; width: 80%; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h2>JavaScript Popups and Functions</h2>
+
+    <div class="section">
+        <h3>1. Display Current Date</h3>
+        <button onclick="displayDate()">Display Date</button><br>
+        <input type="text" id="dateInput" readonly placeholder="Date will appear here">
+    </div>
+
+    <div class="section">
+        <h3>2. Factorial</h3>
+        <button onclick="calcFactorial()">Calculate Factorial</button>
+    </div>
+
+    <div class="section">
+        <h3>3. Multiplication Table</h3>
+        <button onclick="showMultiplicationTable()">Show Table</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>\n

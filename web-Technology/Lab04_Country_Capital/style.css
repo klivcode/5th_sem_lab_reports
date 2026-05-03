@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+.container {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+}
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+.result-box {
+    margin-top: 20px;
+    font-size: 18px;
+}
+/* CSS styling for the capital as required */
+#capitalDisplay {
+    color: #d9534f;
+    font-weight: bold;
+    font-size: 24px;
+}

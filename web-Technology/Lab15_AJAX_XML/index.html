@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 15 - AJAX XML</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        button { padding: 10px; font-size: 16px; cursor: pointer; }
+        .data-container { margin-top: 20px; border: 1px solid #ccc; padding: 15px; background: #f9f9f9; width: 400px;}
+        .employee { border-bottom: 1px solid #ddd; padding: 10px 0; }
+        .employee:last-child { border-bottom: none; }
+    </style>
+</head>
+<body>
+    <h2>AJAX XML Data Loader</h2>
+    <button onclick="loadXMLData()">Get Data</button>
+    
+    <div class="data-container" id="output">
+        Data will be loaded here...
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 12 - Reg Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Page</h2>
+        <form id="regForm" onsubmit="return validateForm()">
+            <div class="input-group">
+                <label>First Name:</label>
+                <input type="text" id="fname">
+                <span class="error" id="fnameErr">Must be alphabets only, min 6 chars.</span>
+            </div>
+            
+            <div class="input-group">
+                <label>Password:</label>
+                <input type="password" id="pass">
+                <span class="error" id="passErr">Minimum 6 characters required.</span>
+            </div>
+            
+            <div class="input-group">
+                <label>Email ID:</label>
+                <input type="text" id="email">
+                <span class="error" id="emailErr">Invalid email format.</span>
+            </div>
+            
+            <div class="input-group">
+                <label>Phone Number:</label>
+                <input type="text" id="phone">
+                <span class="error" id="phoneErr">Must contain only digits.</span>
+            </div>
+            
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>\n
