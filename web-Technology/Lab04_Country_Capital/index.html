@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 4 - Country Capital Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Select a Country</h2>
+        <label for="countrySelect">Country: </label>
+        <select id="countrySelect" onchange="showCapital()">
+            <option value="">--Select--</option>
+            <option value="Kathmandu">Nepal</option>
+            <option value="New Delhi">India</option>
+            <option value="Washington D.C.">USA</option>
+            <option value="Tokyo">Japan</option>
+            <option value="London">UK</option>
+        </select>
+        
+        <div class="result-box">
+            Capital: <span id="capitalDisplay"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

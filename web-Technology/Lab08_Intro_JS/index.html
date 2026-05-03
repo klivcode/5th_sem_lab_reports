@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="pageTitle">Lab 8 - Intro to JS</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .box { padding: 15px; border: 1px solid #ccc; margin-top: 20px; }
+        .list-item { font-size: 18px; margin: 5px 0; }
+        button { padding: 10px 15px; margin-right: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1 id="mainHeading" onmouseover="changeTitleColor('red')" onmouseout="changeTitleColor('black')">
+        Hover over me to change title color!
+    </h1>
+
+    <div class="box">
+        <h3>Dialog Boxes</h3>
+        <button onclick="showAlert()">Alert</button>
+        <button onclick="showConfirm()">Confirm</button>
+        <button onclick="showPrompt()">Prompt</button>
+        <p id="dialogResult"></p>
+    </div>
+
+    <div class="box">
+        <h3>DOM Manipulation</h3>
+        <ul id="myList">
+            <li class="list-item">Item 1</li>
+            <li class="list-item">Item 2</li>
+            <li>Item 3 (no class)</li>
+        </ul>
+        <button onclick="modifyList()">Modify Items</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

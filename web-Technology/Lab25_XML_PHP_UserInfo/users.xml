@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user id="1"><name>Alice</name><email>alice@example.com</email><role>Admin</role></user>
+    <user id="2"><name>Bob</name><email>bob@example.com</email><role>User</role></user>
+    <user id="3"><name>Charlie</name><email>charlie@example.com</email><role>User</role></user>
+    <user id="4"><name>David</name><email>david@example.com</email><role>Editor</role></user>
+    <user id="5"><name>Eve</name><email>eve@example.com</email><role>User</role></user>
+    <user id="6"><name>Frank</name><email>frank@example.com</email><role>Admin</role></user>
+    <user id="7"><name>Grace</name><email>grace@example.com</email><role>User</role></user>
+    <user id="8"><name>Heidi</name><email>heidi@example.com</email><role>Editor</role></user>
+    <user id="9"><name>Ivan</name><email>ivan@example.com</email><role>User</role></user>
+    <user id="10"><name>Judy</name><email>judy@example.com</email><role>User</role></user>
+</users>
